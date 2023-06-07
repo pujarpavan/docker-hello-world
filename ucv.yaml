@@ -1,8 +1,8 @@
 version: 2.1.0
 integrations:
 - type: ucv-ext-ucd
-attributes:
-      auto-config: true
+  attributes:
+     auto-config: true
   configs:
     name: UCD Integration
     baseUrl: https://10.134.119.198:8443
