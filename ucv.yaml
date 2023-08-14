@@ -5,7 +5,7 @@ integrations:
      auto-config: true
   configs:
     name: UCD Integration
-    baseUrl: https://10.134.119.198:8443
-    deployToken: e1a7e0ab-48b2-4a7d-bf23-7fbd1352bd76
+    baseUrl: https://10.134.119.250:8443/
+    deployToken: 9dc7482c-5d5c-4f96-97d9-c71ada765044
     loggingLevel: DEBUG
 
