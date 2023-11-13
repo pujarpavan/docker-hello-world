@@ -19,7 +19,7 @@ this better for everyone over the years.
 
 ## Sample Usage
 
-### Starting a web server on port 80
+### Starting a web server on port 8080
 
 ```bash
 $ docker run -d --rm --name web-test -p 80:8000 crccheck/hello-world
