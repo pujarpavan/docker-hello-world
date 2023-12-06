@@ -1,0 +1,11 @@
+version: 2.1.5
+integrations:
+- type: ucv-ext-ucd
+  attributes:
+     auto-config: true
+  configs:
+    name: UCD Integration123
+    baseUrl: https://10.134.119.250:8443
+    deployToken: 3eccb61c-4ef9-419f-ba87-6a40dcc00da4
+    loggingLevel: DEBUG
+
