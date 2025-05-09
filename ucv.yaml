@@ -1,11 +1,12 @@
-version: 2.1.5
+version: "5.0.14"
 integrations:
-- type: ucv-ext-ucd
-  attributes:
-     auto-config: true
-  configs:
-    name: UCD Integration123
-    baseUrl: https://10.134.119.250:8443
-    deployToken: 3eccb61c-4ef9-419f-ba87-6a40dcc00da4
-    loggingLevel: DEBUG
-Test12
+  - type: ucv-ext-launch
+    tenant_id: "5ade13625558f2c6688d15ce"
+    name: "ucd Integration"
+    attributes:
+      auto-config: true
+    configs:
+      name: "ucd Integration"
+      baseUrl: "https://10.134.119.38:8443/"
+      launchToken: "b9c642f6-3251-4f69-9d3c-127267086428"
+      loggingLevel: "DEBUG"
